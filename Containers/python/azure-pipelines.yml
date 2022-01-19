@@ -13,7 +13,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'litacr'
-    repository: 'passwordService'
+    repository: 'caontainersummit'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: '$(Build.BuildNumber)'
