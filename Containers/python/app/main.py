@@ -10,4 +10,4 @@ app = FastAPI(title="Container Workshop", description=desc, version=vers)
 
 @app.get("/")
 def read_root():
-    return {"LucidiaIt": "Rocks"}
+    return {"LucidiaIt": "RocksIT"}
