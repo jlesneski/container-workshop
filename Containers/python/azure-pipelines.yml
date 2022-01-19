@@ -15,5 +15,5 @@ steps:
     containerRegistry: 'litacr'
     repository: 'containersummit'
     command: 'buildAndPush'
-    Dockerfile: 'python/**/Dockerfile'
+    Dockerfile: 'Containers/python/**/Dockerfile'
     tags: '$(Build.BuildNumber)'
